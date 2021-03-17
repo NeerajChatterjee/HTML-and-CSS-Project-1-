@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    background-color: rgb(238, 232, 238);
+    padding: 10px;
+}
+header h1{
+        text-align: center;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.89);      
+}
+header{
+    background-color: powderblue;
+    padding: 30px;
+}
+.img1{
+    float: left;
+    overflow: auto;
+    margin: -20px 0px 2px -25px;
+    padding: 0px;
+  }
+  .img1:hover{
+    border: 2px solid blue;
+  }
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    overflow: hidden;
+}
+footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+main a{
+    font-weight: bold;
+}
+main a:link{
+    color: black;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main a:active{
+    color: hotpink;
+}
+div a{
+    background-color: peachpuff;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid black;
+}

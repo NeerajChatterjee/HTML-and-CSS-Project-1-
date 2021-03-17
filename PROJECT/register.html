@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <img src="MNNIT1.png" class="img1" alt="College logo" style="width: 160px;"><h1>MNNOT ALLAHABAD</h1>
+    </header>
+    <nav>
+        <a href="project1.html" style="float: left;" target="_blank">Home</a>
+        <a href="#" onclick="alert('Section will be available soon')" style="float: left;">Courses</a>
+        <a href="#" onclick="alert('Section will be available soon')" style="float: left;">Gallery</a>
+        <a href="#" onclick="alert('Section will be available soon')" style="float: left;">Facilities</a>
+        <a href="#" style="float: right;" >Login</a>
+        <a href="#" style="float: right;">SignUp</a>
+        <br>
+    </nav><br>  
+    <main>
+        <h1>Welcome to the BTech Registrations 2020-2021</h1>
+        <ul>
+        <li style="font-size: 24px;"> Fill all the details carefully as <strong>no further chance </strong>will be given for further correction.</li>
+        <li style="font-size: 22px;"> Make sure to go through the <strong>Eligibility conditions</strong> and <strong>Rules</strong> that are mentioned on Home page.</li>
+        </ul><br>
+        <p class="f100">JEE Details</p>
+        <form action="/action_page.php" method="POST">
+        <label for="applinum">Application Number: </label>
+        <input type="text" name="applinum" id="applinum" required placeholder="APPLICATION NUMBER"><br><br>
+        <label for="rollno">Roll number: </label>
+        <input type="text" name="rollno" id="rollno" required placeholder="JEE ROLL NUMBER"><br> <br>
+        <label for="domicile" title="Domicile means the state from which you have appeared for class 12th examination. For more detials visit jeemain.nta.nic.in">Domicile: </label>
+        <input type="text" name="domicile" id="domicile" required placeholder="DOMICILE">
+        <br><br>
+        <p class="f100">Personal Details</p>
+        <label for="fname">First Name:</label
+        ><input type="text" name="fname" id="fname" required placeholder="FIRST NAME"/><br /><br />
+        <label for="midname">Middle Name:</label
+        ><input type="text" name="midname" id="midname" placeholder="MIDDLE NAME"/><br /><br />
+        <label for="lname">Last Name:</label
+        ><input type="text" name="lname" id="lname" placeholder="LAST NAME"/><br /><br />
+        <label for="dob">Date of birth:</label
+        ><input type="date" name="dob" id="dob" required /><br /><br />
+        <label for="cat">Category: </label>
+        <select name="cat" id="cat" required>
+            <option value="">--Select a Category--</option>
+            <option value="gen">General</option>
+            <option value="gen-ews">Gen-EWS</option>
+            <option value="obc">OBC</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+        </select><br><br>
+        <label for="gender">Gender:</label>
+       <select name="gender" id="gender" required>
+        <option value="">--Select a Gender--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+       </select><br><br>
+       <p class="f100">Parent's Details</p>
+       <label for="father">Father's Name:</label>
+       <input type="text" name="father" id="father" placeholder="FATHER NAME" required /><br /><br />
+       <label for="mother">Mother's Name:</label>
+       <input type="text" name="mother" id="mother" placeholder="MOTHER NAME" required /><br /><br />
+       <p class="f100">Contact Details </p>
+       <label for="address">Address: </label>
+       <textarea name="address" id="address" cols="30" rows="7" placeholder="Enter your address" required></textarea><br><br>
+       <label for="state">State:</label>
+       <input type="text" name="state" id="state" placeholder="STATE" required /><br /><br />
+       <label for="pincode">Pincode:</label>
+       <input type="number" name="pincode" id="pincode" placeholder="PINCODE" required /><br /><br />
+       <label for="email">E-Mail I'd:</label>
+       <input type="email" name="email" id="email" placeholder="EMAIL-ID" required /><br /><br />
+       <label for="mobile">Mobile Number:</label>
+       <input type="number" name="mobile" id="mobile" placeholder="MOBILE NUMBER" required /><br /><br />
+       <p class="f100">Attachments</p>
+       <label for="photo">Student's passport size photograph:</label>
+       <input type="file" name="photo" id="photo" required /><br /><br />
+       <label for="sign">Student's Signature:</label>
+       <input type="file" name="sign" id="sign" required /><br /><br />
+       <label for="form1">MNNOT self declaration form: </label>
+       <input type="file" name="form1" id="form1" required><br><br>
+       <fieldset>
+        <legend>Read it carefully</legend>
+        <p>
+          Please recheck all the details carefully and click the checkboxes
+          after rechecking.<br />
+        </p>
+        <input type="checkbox" name="sname" id="sname" value="Yes" required/><label for="sname"
+          >Student Name</label
+        >
+        <input type="checkbox" name="datofb" id="dateofb" value="Yes" required/><label for="dateofb"
+          >Date of Birth</label
+        >
+        <input type="checkbox" name="category" id="category" value="Yes" required/><label
+          for="category"
+          >Category</label>
+        <input type="checkbox" name="gend" id="gend" value="Yes" required/><label for="gend"
+          >Gender</label
+        ><br /><br />
+        <input type="checkbox" name="pname" id="pname" value="Yes" required/><label for="pname">Parent Name</label>
+        <input type="checkbox" name="cdetail" id="cdetail" value="Yes" required/><label
+          for="cdetail"
+          >E-Mail and Phone Number</label>
+      </fieldset>
+      <br /><hr />
+      <input type="checkbox" name="t&c" id="t&c" value="Yes" required/><label for="t&c"
+        >I have read and understood all the T&C's.</label>
+      <br /><hr/>
+      <p style="font-size: 20px;font-weight: 400;">After filling the form, please proceed to pay the required fees: Rs.500 for all category &nbsp; <input type="submit" value="Submit">
+     </form>
+    </main>
+    <footer>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">&copy; 2021 | MNNOT</a>
+  </footer>
+</body>
+</html>
