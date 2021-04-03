@@ -10,6 +10,6 @@
 - **IDE**: VS Code
 - **Version Control**: Git and GitHub
 
-<a href="https://pinnacle20.github.io/mygym/"> -Check our here-</a>
+<a href="https://neerajchatterjee.github.io/HTML-and-CSS-Project-1-/."> -Check our here-</a>
 
 # Thank you!
